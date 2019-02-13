@@ -10,8 +10,8 @@ h2 {
 p {
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
+
 
 body {
     background: url(../images/star_wars_logo_new_tall.0.jpg) fixed center;
@@ -40,15 +40,21 @@ button {
     clear: both;
 }
 
+#attackMessage {
+    clear: both;
+    font-style: italic;
+    font-weight: bold;
+}
+
 img {
-    height: 120px;
+    height: 112px;
     width: 160px;
 }
 
 
 .whiteArea {
     color: black;
-    height: 165px;
+    height: 155px;
     width: 200px;
     text-align: center;
     line-height: 0.1;;
@@ -62,7 +68,7 @@ img {
 
 .redArea {
     color: black;
-    height: 165px;
+    height: 155px;
     width: 200px;
     text-align: center;
     line-height: 0.1;;
@@ -73,6 +79,20 @@ img {
     border-color: white;
     background: red;
 
+}
+
+.blackArea {
+    color: white;
+    height: 155px;
+    width: 200px;
+    text-align: center;
+    line-height: 0.1;;
+    float: left;
+    padding: 0;
+    border-style: solid;
+    border-width: 3px;
+    border-color: greenyellow;
+    background: black;
 }
 
 
